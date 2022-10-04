@@ -5,8 +5,8 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-        <link rel="stylesheet" href="/design/default.css">
-        <link rel="stylesheet" href="/design/style.css">
+        <link rel="stylesheet" href="/site_retro_game/design/default.css">
+        <link rel="stylesheet" href="/site_retro_game/design/style.css">
         <title>Retro game</title>
     </head>
     <body>
@@ -15,7 +15,7 @@
             <nav class="navbar navbar-dark bg-principal navbar-expand-md">
                 <div class="container">
                     <div class="navbar-brand">
-                        <img src="/img/retro_game_trois_manettes" alt="logoRetroGame1" class="img_retro_game_1">
+                        <img src="/site_retro_game/img/retro_game_trois_manettes" alt="logoRetroGame1" class="img_retro_game_1">
                         RETRO GAME
                     </div>
 
@@ -26,16 +26,16 @@
                     <div class="collapse navbar-collapse" id="menuDeroulant">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a href="/home.html" class="nav-link active ">Accueil</a>
+                                <a href="/site_retro_game/home.php" class="nav-link">Accueil</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/search.html" class="nav-link">Recherche</a>
+                                <a href="/site_retro_game/search.php" class="nav-link">Recherche</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/account.html" class="nav-link">Mon compte</a>
+                                <a href="/site_retro_game/account.php" class="nav-link">Mon compte</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/admin.html" class="nav-link">Admin</a>
+                                <a href="/site_retro_game/admin.php" class="nav-link">Admin</a>
                             </li>
                         </ul>
                     </div>
@@ -49,7 +49,7 @@
             <button type="button" class="btn btn-outline-primary bg-secondaire text-white rounded-2">Recherche</button>
         </div>
 
-        <img src="/img/retro arcade.webp" alt="RG1manette" class="w-100">
+        <img src="/site_retro_game/img/retro arcade.webp" alt="RG1manette" class="w-100">
 
 
 

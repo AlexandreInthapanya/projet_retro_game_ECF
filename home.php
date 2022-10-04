@@ -5,8 +5,8 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-        <link rel="stylesheet" href="/design/default.css">
-        <link rel="stylesheet" href="/design/style.css">
+        <link rel="stylesheet" href="/site_retro_game/design/default.css">
+        <link rel="stylesheet" href="/site_retro_game/design/style.css">
         <title>Retro game</title>
     </head>
     <body>
@@ -15,7 +15,7 @@
             <nav class="navbar navbar-dark bg-principal navbar-expand-md">
                 <div class="container">
                     <div class="navbar-brand">
-                        <img src="/img/retro_game_trois_manettes" alt="logoRetroGame1" class="img_retro_game_1">
+                        <img src="/site_retro_game/img/retro_game_trois_manettes" alt="logoRetroGame1" class="img_retro_game_1">
                         RETRO GAME
                     </div>
 
@@ -26,16 +26,16 @@
                     <div class="collapse navbar-collapse" id="menuDeroulant">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a href="/home.html" class="nav-link active ">Accueil</a>
+                                <a href="/site_retro_game/home.php" class="nav-link">Accueil</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/search.html" class="nav-link">Recherche</a>
+                                <a href="/site_retro_game/search.php" class="nav-link">Recherche</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/account.html" class="nav-link">Mon compte</a>
+                                <a href="/site_retro_game/account.php" class="nav-link">Mon compte</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/admin.html" class="nav-link">Admin</a>
+                                <a href="/site_retro_game/admin.php" class="nav-link">Admin</a>
                             </li>
                         </ul>
                     </div>
@@ -59,15 +59,15 @@
                 <div class="carousel-inner">
 
                     <div class="carousel-item active">
-                        <img src="/img/Jojo's bizarre adventure all star battle PS5.jpg" alt="Jojo's bizarre adventure all star battle PS5" class="w-100 img-">
+                        <img src="/site_retro_game/img/Jojo's bizarre adventure all star battle PS5.jpg" alt="Jojo's bizarre adventure all star battle PS5" class="w-100 img-">
                     </div>
 
                     <div class="carousel-item">
-                        <img src="/img/Stray PS5.jpg" alt="Stray PS5" class="w-100">
+                        <img src="/site_retro_game/img/Stray PS5.jpg" alt="Stray PS5" class="w-100">
                     </div>
 
                     <div class="carousel-item">
-                        <img src="/img/The ascent PS5.jpg" alt="Stray PS5" class="w-100">
+                        <img src="/site_retro_game/img/The ascent PS5.jpg" alt="Stray PS5" class="w-100">
                     </div>
 
                 </div>
@@ -100,7 +100,7 @@
 
                 <div class="card mx-auto my-5 col-4 col-sm-5 col-md-4 bg-secondaire">
                     <div class="card-body">
-                        <img src="/img/Jojo's bizarre adventure all star battle PS5.jpg" alt="Jojo's bizarre adventure all star battle PS5" class="card-img-top mb-4 mt-2">
+                        <img src="/site_retro_game/img/Jojo's bizarre adventure all star battle PS5.jpg" alt="Jojo's bizarre adventure all star battle PS5" class="card-img-top mb-4 mt-2">
                         <h5 class="card-title text-white">Jojo's bizarre adventure all star battle PS5</h5>
                         <h6></h6>
                         <p class="card-text mt-4">69,99€</p>
@@ -111,33 +111,7 @@
 
                 <div class="card mx-auto my-5 col-4 col-sm-5 col-md-4 bg-secondaire">
                     <div class="card-body">
-                        <img src="/img/Stray PS5.jpg" alt="Jojo's bizarre adventure all star battle PS5" class="card-img-top mb-4 mt-2">
-                        <h5 class="card-title text-white">Jojo's bizarre adventure all star battle PS5</h5>
-                        <h6></h6>
-                        <p class="card-text mt-4">69,99€</p>
-                        <a href="#" class="card-link">En savoir plus</a>
-                        <button>Ajouter au panier</button>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="row">
-
-                <div class="card mx-auto my-5 col-4 col-sm-5 col-md-4 bg-secondaire">
-                    <div class="card-body">
-                        <img src="/img/The ascent PS5.jpg" alt="Jojo's bizarre adventure all star battle PS5" class="card-img-top mb-4 mt-2">
-                        <h5 class="card-title text-white">Jojo's bizarre adventure all star battle PS5</h5>
-                        <h6></h6>
-                        <p class="card-text mt-4">69,99€</p>
-                        <a href="#" class="card-link">En savoir plus</a>
-                        <button>Ajouter au panier</button>
-                    </div>
-                </div>
-    
-                <div class="card mx-auto my-5 col-4 col-sm-5 col-md-4 bg-secondaire">
-                    <div class="card-body">
-                        <img src="/img/The last of us PS5.jpg" alt="Jojo's bizarre adventure all star battle PS5" class="card-img-top mb-4 mt-2">
+                        <img src="/site_retro_game/img/Stray PS5.jpg" alt="Jojo's bizarre adventure all star battle PS5" class="card-img-top mb-4 mt-2">
                         <h5 class="card-title text-white">Jojo's bizarre adventure all star battle PS5</h5>
                         <h6></h6>
                         <p class="card-text mt-4">69,99€</p>
@@ -152,7 +126,7 @@
 
                 <div class="card mx-auto my-5 col-4 col-sm-5 col-md-4 bg-secondaire">
                     <div class="card-body">
-                        <img src="/img/White day a labyrinth named school PS5.jpg" alt="Jojo's bizarre adventure all star battle PS5" class="card-img-top mb-4 mt-2">
+                        <img src="/site_retro_game/img/The ascent PS5.jpg" alt="Jojo's bizarre adventure all star battle PS5" class="card-img-top mb-4 mt-2">
                         <h5 class="card-title text-white">Jojo's bizarre adventure all star battle PS5</h5>
                         <h6></h6>
                         <p class="card-text mt-4">69,99€</p>
@@ -163,7 +137,33 @@
     
                 <div class="card mx-auto my-5 col-4 col-sm-5 col-md-4 bg-secondaire">
                     <div class="card-body">
-                        <img src="/img/Fifa 23 PS5.jpg" alt="Jojo's bizarre adventure all star battle PS5" class="card-img-top mb-4 mt-2">
+                        <img src="/site_retro_game/img/The last of us PS5.jpg" alt="Jojo's bizarre adventure all star battle PS5" class="card-img-top mb-4 mt-2">
+                        <h5 class="card-title text-white">Jojo's bizarre adventure all star battle PS5</h5>
+                        <h6></h6>
+                        <p class="card-text mt-4">69,99€</p>
+                        <a href="#" class="card-link">En savoir plus</a>
+                        <button>Ajouter au panier</button>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="card mx-auto my-5 col-4 col-sm-5 col-md-4 bg-secondaire">
+                    <div class="card-body">
+                        <img src="/site_retro_game/img/White day a labyrinth named school PS5.jpg" alt="Jojo's bizarre adventure all star battle PS5" class="card-img-top mb-4 mt-2">
+                        <h5 class="card-title text-white">Jojo's bizarre adventure all star battle PS5</h5>
+                        <h6></h6>
+                        <p class="card-text mt-4">69,99€</p>
+                        <a href="#" class="card-link">En savoir plus</a>
+                        <button>Ajouter au panier</button>
+                    </div>
+                </div>
+    
+                <div class="card mx-auto my-5 col-4 col-sm-5 col-md-4 bg-secondaire">
+                    <div class="card-body">
+                        <img src="/site_retro_game/img/Fifa 23 PS5.jpg" alt="Jojo's bizarre adventure all star battle PS5" class="card-img-top mb-4 mt-2">
                         <h5 class="card-title text-white">Jojo's bizarre adventure all star battle PS5</h5>
                         <h6></h6>
                         <p class="card-text mt-4">69,99€</p>
