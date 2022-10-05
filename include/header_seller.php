@@ -26,19 +26,19 @@
                     <div class="collapse navbar-collapse" id="menuDeroulant">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a href="/site_retro_game/home.php" class="nav-link">Accueil</a>
+                                <a href="/site_retro_game/home_seller.php" class="nav-link">Accueil</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/site_retro_game/search.php" class="nav-link">Recherche</a>
+                                <a href="/site_retro_game/search_seller.php" class="nav-link">Recherche</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/site_retro_game/connexion.php" class="nav-link">Connexion</a>
+                                <a href="/site_retro_game/account_seller.php" class="nav-link">Mon compte</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#" class="nav-link">Mon panier</a>
+                                <a href="#" class="nav-link">Vendeur</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#" class="nav-link text-white">Visiteur</a>
+                                <a href="disconnexion.php" class="nav-link text-warning">Déconnexion</a>
                             </li>
                         </ul>
                     </div>

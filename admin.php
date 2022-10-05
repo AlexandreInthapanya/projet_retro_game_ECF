@@ -1,4 +1,4 @@
-<?php include('/MAMP/htdocs/site_retro_game/include/header.php') ?>
+<?php include('/MAMP/htdocs/site_retro_game/include/header_admin.php') ?>
 
     <div class="container">
 

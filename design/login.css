@@ -65,6 +65,15 @@ form {
     margin: auto;
 }
 
+#success {
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    display: inline-block;
+    margin: auto;
+}
+
 #button {
     text-align: center;
     margin-top: 8px;  

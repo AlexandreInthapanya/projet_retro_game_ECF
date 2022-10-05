@@ -1,4 +1,5 @@
 <?php
+session_start();
 
 require('src/connexion.php');
 
@@ -23,6 +24,7 @@ if(!empty($_POST['pseudo']) && !empty($_POST['email']) && !empty($_POST['passwor
     while($email_verification = $req->fetch()){
         if($email_verification['numberEmail'] != 0){
             header('location: inscription.php?error=1&email=1');
+            exit();
         }
     }
 
@@ -35,7 +37,7 @@ if(!empty($_POST['pseudo']) && !empty($_POST['email']) && !empty($_POST['passwor
     $req->execute(array($pseudo, $email, $password, $secret));
 
     header('location: inscription.php/?success=1');
-
+    exit();
 
 }
 
@@ -56,12 +58,15 @@ if(!empty($_POST['pseudo']) && !empty($_POST['email']) && !empty($_POST['passwor
     </header>
 
     <div class="container">
-        <p id="info">Bienvenue sur mon site, pour en voir plus, inscrivez-vous. Sinon, <a href="../site_retro_game/connexion.php">Connectez-vous</a></p>
+
+        <?php
+            if(!isset($_SESSION['connect'])){ ?>
+                <p id="info">Bienvenue sur mon site, pour en voir plus, inscrivez-vous. Sinon, <a href="../site_retro_game/connexion.php">Connectez-vous</a></p>
 
             <?php 
 
             if(isset($_GET['error'])){
-                                
+                                            
                 if(isset($_GET['pass'])){
                     echo '<p id="error">Les mots de passe ne correspondent pas.</p>';
                 }
@@ -101,6 +106,14 @@ if(!empty($_POST['pseudo']) && !empty($_POST['email']) && !empty($_POST['passwor
         
                 </form>
             </div>
+        <?php }  else { ?>
+
+            <p id="info">
+            Bonjour <?= $_SESSION['pseudo'] ?><br>
+            <a href="disconnexion.php">Déconnexion</a>
+        </p>
+
+        <?php } ?>
     </div>
 
 </body>
