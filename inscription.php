@@ -44,24 +44,27 @@ if(!empty($_POST['pseudo']) && !empty($_POST['email']) && !empty($_POST['passwor
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PHP et MySQL : la formation ultime</title>
-    <link rel="stylesheet" type="text/css" href="/site_retro_game/design/login.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="/site_retro_game/design/default.css">
+    <link rel="stylesheet" href="/site_retro_game/design/log.css">
 </head>
 <body>
     <header>
         <h1>Inscription</h1>
     </header>
 
-    <div class="container">
+    <div class="container py-4">
 
         <?php
             if(!isset($_SESSION['connect'])){ ?>
-                <p id="info">Bienvenue sur mon site, pour en voir plus, inscrivez-vous. Sinon, <a href="../site_retro_game/connexion.php">Connectez-vous</a></p>
+                <p id="info">Bienvenue sur mon site, pour en voir plus, inscrivez-vous. Sinon, <a href="../site_retro_game/connexion.php">Connectez-vous</a><br>
+                <a href="/site_retro_game/home.php" class="text-info">Retro game</a></p>
 
             <?php 
 

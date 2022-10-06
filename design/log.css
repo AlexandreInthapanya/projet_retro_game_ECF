@@ -30,12 +30,12 @@ a {
 
 header {
     text-align: center;
-    background-color: #2C3E50;
+    background-color: #16F5B2;
     padding: 10px;
 }
 
 header h1 {
-    color: #FDE3A7;
+    color: gold;
     margin: 0;
 }
 
@@ -60,23 +60,19 @@ form {
     background-color: red;
     color: white;
     text-align: center;
-    padding: 5px;
-    display: inline-block;
-    margin: auto;
+    padding: 6px;
 }
 
 #success {
     background-color: green;
     color: white;
     text-align: center;
-    padding: 5px;
-    display: inline-block;
-    margin: auto;
+    padding: 6px;
 }
 
 #button {
     text-align: center;
-    margin-top: 8px;  
+    margin-top: 12px;  
 }
 
 .container {
