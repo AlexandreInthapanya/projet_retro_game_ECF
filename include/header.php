@@ -35,7 +35,7 @@
                                 <a href="/site_retro_game/connexion.php" class="nav-link">Connexion</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#" class="nav-link">Mon panier</a>
+                                <a href="/site_retro_game/panier/panier.php" class="nav-link">Mon panier</a>
                             </li>
                             <li class="nav-item">
                                 <a href="#" class="nav-link text-white">Visiteur</a>
