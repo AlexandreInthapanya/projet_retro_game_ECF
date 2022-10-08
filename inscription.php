@@ -64,7 +64,7 @@ if(!empty($_POST['pseudo']) && !empty($_POST['email']) && !empty($_POST['passwor
         <?php
             if(!isset($_SESSION['connect'])){ ?>
                 <p id="info">Bienvenue sur mon site, pour en voir plus, inscrivez-vous. Sinon, <a href="../site_retro_game/connexion.php">Connectez-vous</a><br>
-                <a href="/site_retro_game/home.php" class="text-info">Retro game</a></p>
+                <a href="/site_retro_game/index.php" class="text-info">Retro game</a></p>
 
             <?php 
 

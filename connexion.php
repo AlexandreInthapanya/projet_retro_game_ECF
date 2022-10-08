@@ -83,7 +83,7 @@ if(!empty($_POST['email']) && !empty($_POST['password'])){
 
     <div class="container py-4">
         <p id="info">Bienvenue sur mon site, si vous n'êtes pas inscrit, <a href="../site_retro_game/inscription.php">Inscrivez-vous</a><br>
-        <a href="/site_retro_game/home.php" class="text-info">Retro game</a></p>
+        <a href="/site_retro_game/index.php" class="text-info">Retro game</a></p>
         
 
         <?php

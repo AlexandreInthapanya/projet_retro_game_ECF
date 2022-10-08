@@ -26,7 +26,7 @@
                     <div class="collapse navbar-collapse" id="menuDeroulant">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a href="/site_retro_game/home.php" class="nav-link">Accueil</a>
+                                <a href="/site_retro_game/index.php" class="nav-link">Accueil</a>
                             </li>
                             <li class="nav-item">
                                 <a href="/site_retro_game/search.php" class="nav-link">Recherche</a>

@@ -8,7 +8,7 @@
     <title>Panier</title>
 </head>
 <body>
-    <button><a href="/site_retro_game/home.php" class="link">Catalogue Jeux videos</a></button>
+    <button><a href="/site_retro_game/index.php" class="link">Catalogue Jeux videos</a></button>
     <div class="panier">
         <section>
             <table>
